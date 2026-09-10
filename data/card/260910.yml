@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T18:24:57Z
+  collectedAt: 2026-09-10T21:32:03Z
 timeline:
   created: 2015-09-07
   lastCommit: 2026-09-02
@@ -98,7 +98,7 @@ total:
   commit: 11224
 ---
 path: /home/runner/.x-repo/github.com/gpg/gnupg
-collectedAt: 2026-09-10T18:25:33Z
+collectedAt: 2026-09-10T21:32:30Z
 loc:
   C:
     code: 285934
