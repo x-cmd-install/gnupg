@@ -1,24 +1,68 @@
 # gnupg
 
+[中文版本](./README.cn.md)
+
 The GNU Privacy Guard. NOTE: Maintainers are not tracking this mirror. Do not make pull requests here, nor comment any commits, submit them usual way to bug tracker (https://www.gnupg.org/documentation/bts.html) or to the mailing list (https://www.gnupg.org/documentation/mailing-lists.html).
 
-- **Upstream**: <https://github.com/gpg/gnupg>
-- **Homepage**: <https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git>
-- **Latest release**: `` (n/a)
-- **Last commit**: 2026-09-02
-- **License**: GPL-3.0
-- **Stars**: 976 · **Forks**: 214 · **Open issues**: 0 · **Contributors**: 70
+![gnupg](https://repo.x-cmd.io/gnupg.svg)
 
-## Installation
+## Install
 
 ```sh
 x install gnupg
 ```
 
-See <https://x-cmd.com/install/gnupg> for details.
+## Source
 
-## Data
+- **Upstream**: <https://github.com/gpg/gnupg>
+- **Homepage**: <https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git>
+- **License**: GPL-3.0
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
+## Popularity
 
-_Last regenerated: 2026-09-09T20:52:32Z._
+- **Stars**: 976 · **Forks**: 214 · **Open issues**: 0 · **Contributors**: 70
+
+## Totals (cumulative)
+
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11224
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 1 | 0 | 0 | 7 |
+| 90d | 2026-06-12 | 0 | 0 | 1 | 0 | 0 | 26 |
+| 360d | 2025-09-15 | 0 | 0 | 1 | 0 | 0 | 173 |
+
+## Code size
+
+Total: **323,418** lines of code across **650** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| C | 285,934 | 41,544 | 45,240 | 348 |
+| CHeader | 12,185 | 6,309 | 3,484 | 157 |
+| Scheme | 6,777 | 2,732 | 1,239 | 119 |
+| Tex | 5,211 | 2,735 | 692 | 1 |
+| M4 | 3,147 | 1,055 | 194 | 25 |
+
+## OpenSSF Scorecard
+
+Overall score: **3.5 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Dangerous-Workflow** (-1/10) — no workflows found
+
+## Improve this data
+
+Install metadata for gnupg lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gnupg` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+
+- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
+- **Edit the package entry**: <https://github.com/x-cmd/edit/main/gnupg.yml> (or whichever path the index uses)
+
+The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+
+_Snapshot: `data/card/260910.yml` · 2026-09-10T06:26:47Z._
