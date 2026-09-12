@@ -14,13 +14,13 @@ x install gnupg
 
 ## Code insight
 
-Total: **323,418** lines of code across **650** files in the top 5 languages.
+Total: **325,953** lines of code across **652** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 285,934 | 41,544 | 45,240 | 348 |
-| CHeader | 12,185 | 6,309 | 3,484 | 157 |
-| Scheme | 6,777 | 2,732 | 1,239 | 119 |
+| C | 288,280 | 41,672 | 45,477 | 348 |
+| CHeader | 12,229 | 6,316 | 3,490 | 157 |
+| Scheme | 6,903 | 2,766 | 1,263 | 121 |
 | Tex | 5,211 | 2,735 | 692 | 1 |
 | M4 | 3,147 | 1,055 | 194 | 25 |
 
@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11224
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11262
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 0 | 1 | 0 | 0 | 7 |
-| last60d | 2026-07-13 | 0 | 0 | 1 | 0 | 0 | 15 |
-| 90d | 2026-06-13 | 0 | 0 | 1 | 0 | 0 | 26 |
-| last180d | 2026-03-15 | 0 | 0 | 1 | 0 | 0 | 78 |
-| 360d | 2025-09-16 | 0 | 0 | 1 | 0 | 0 | 173 |
-| last720d | 2024-09-21 | 0 | 0 | 1 | 0 | 0 | 593 |
+| 30d | 2026-08-13 | 0 | 0 | 1 | 0 | 0 | 19 |
+| last60d | 2026-07-14 | 0 | 0 | 1 | 0 | 0 | 53 |
+| 90d | 2026-06-14 | 0 | 0 | 1 | 0 | 0 | 64 |
+| last180d | 2026-03-16 | 0 | 0 | 1 | 0 | 0 | 116 |
+| 360d | 2025-09-17 | 0 | 0 | 1 | 0 | 0 | 211 |
+| last720d | 2024-09-22 | 0 | 0 | 1 | 0 | 0 | 631 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for gnupg lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T18:33:15Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T06:05:49Z._
