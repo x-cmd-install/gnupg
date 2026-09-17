@@ -18,7 +18,7 @@ Total: **325,973** lines of code across **652** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 288,300 | 41,676 | 45,481 | 348 |
+| C | 288,300 | 41,680 | 45,481 | 348 |
 | CHeader | 12,229 | 6,316 | 3,490 | 157 |
 | Scheme | 6,903 | 2,766 | 1,263 | 121 |
 | Tex | 5,211 | 2,735 | 692 | 1 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 977 · **Forks**: 215 · **Open issues**: 0 · **Contributors**: 70
+- **Stars**: 976 · **Forks**: 215 · **Open issues**: 0 · **Contributors**: 70
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11265
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11266
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 0 | 1 | 0 | 0 | 20 |
-| last60d | 2026-07-18 | 0 | 0 | 1 | 0 | 0 | 47 |
-| 90d | 2026-06-18 | 0 | 0 | 1 | 0 | 0 | 64 |
-| last180d | 2026-03-20 | 0 | 0 | 1 | 0 | 0 | 115 |
-| 360d | 2025-09-21 | 0 | 0 | 1 | 0 | 0 | 211 |
-| last720d | 2024-09-26 | 0 | 0 | 1 | 0 | 0 | 627 |
+| 30d | 2026-08-18 | 0 | 0 | 1 | 0 | 0 | 20 |
+| last60d | 2026-07-19 | 0 | 0 | 1 | 0 | 0 | 47 |
+| 90d | 2026-06-19 | 0 | 0 | 1 | 0 | 0 | 64 |
+| last180d | 2026-03-21 | 0 | 0 | 1 | 0 | 0 | 115 |
+| 360d | 2025-09-22 | 0 | 0 | 1 | 0 | 0 | 211 |
+| last720d | 2024-09-27 | 0 | 0 | 1 | 0 | 0 | 628 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for gnupg lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T06:45:44Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T06:52:05Z._
