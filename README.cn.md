@@ -4,7 +4,7 @@
 
 The GNU Privacy Guard. NOTE: Maintainers are not tracking this mirror. Do not make pull requests here, nor comment any commits, submit them usual way to bug tracker (https://www.gnupg.org/documentation/bts.html) or to the mailing list (https://www.gnupg.org/documentation/mailing-lists.html).
 
-![gnupg](https://repo.x-cmd.io/gnupg.svg?lang=zh)
+[![x-cmd/install — gnupg Code Quality Monitoring Repo Card](https://repo.x-cmd.io/gnupg.svg?lang=zh)](https://x-cmd.com/install/gnupg)
 
 ## 安装
 
@@ -18,7 +18,7 @@ x install gnupg
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 288,329 | 41,682 | 45,482 | 348 |
+| C | 288,329 | 41,685 | 45,482 | 348 |
 | CHeader | 12,229 | 6,316 | 3,490 | 157 |
 | Scheme | 6,903 | 2,766 | 1,263 | 121 |
 | Tex | 5,211 | 2,735 | 692 | 1 |
@@ -42,22 +42,22 @@ x install gnupg
 
 ## 流行度
 
-- **Star**: 979 · **Fork**: 216 · **开放 issue**: 0 · **贡献者**: 70
+- **Star**: 982 · **Fork**: 216 · **开放 issue**: 0 · **贡献者**: 70
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 1 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 11268
+- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 1 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 11269
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 1 | 0 | 0 | 22 |
-| last60d | 2026-07-20 | 0 | 0 | 1 | 0 | 0 | 49 |
-| 90d | 2026-06-20 | 0 | 0 | 1 | 0 | 0 | 66 |
-| last180d | 2026-03-22 | 0 | 0 | 1 | 0 | 0 | 117 |
-| 360d | 2025-09-23 | 0 | 0 | 1 | 0 | 0 | 213 |
-| last720d | 2024-09-28 | 0 | 0 | 1 | 0 | 0 | 627 |
+| 30d | 2026-08-21 | 0 | 0 | 1 | 0 | 0 | 21 |
+| last60d | 2026-07-22 | 0 | 0 | 1 | 0 | 0 | 37 |
+| 90d | 2026-06-22 | 0 | 0 | 1 | 0 | 0 | 67 |
+| last180d | 2026-03-24 | 0 | 0 | 1 | 0 | 0 | 116 |
+| 360d | 2025-09-25 | 0 | 0 | 1 | 0 | 0 | 211 |
+| last720d | 2024-09-30 | 0 | 0 | 1 | 0 | 0 | 628 |
 
 ## 改进这些数据
 
@@ -68,4 +68,4 @@ gnupg 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T06:41:04Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T06:29:46Z._
