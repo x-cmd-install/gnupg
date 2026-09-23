@@ -4,7 +4,7 @@
 
 The GNU Privacy Guard. NOTE: Maintainers are not tracking this mirror. Do not make pull requests here, nor comment any commits, submit them usual way to bug tracker (https://www.gnupg.org/documentation/bts.html) or to the mailing list (https://www.gnupg.org/documentation/mailing-lists.html).
 
-[![x-cmd/install — gnupg Code Quality Monitoring Repo Card](https://repo.x-cmd.io/gnupg.svg)](https://x-cmd.com/install/gnupg)
+[![x-cmd/install — gnupg Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/gnupg.svg)](https://x-cmd.com/install/gnupg)
 
 ## Install
 
@@ -14,11 +14,11 @@ x install gnupg
 
 ## Code insight
 
-Total: **326,024** lines of code across **652** files in the top 5 languages.
+Total: **326,028** lines of code across **652** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 288,351 | 41,689 | 45,483 | 348 |
+| C | 288,354 | 41,690 | 45,484 | 348 |
 | CHeader | 12,229 | 6,316 | 3,490 | 157 |
 | Scheme | 6,903 | 2,766 | 1,263 | 121 |
 | Tex | 5,211 | 2,735 | 692 | 1 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 985 · **Forks**: 218 · **Open issues**: 0 · **Contributors**: 70
+- **Stars**: 985 · **Forks**: 219 · **Open issues**: 0 · **Contributors**: 70
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11271
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11275
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 1 | 0 | 0 | 23 |
-| last60d | 2026-07-24 | 0 | 0 | 1 | 0 | 0 | 39 |
-| 90d | 2026-06-24 | 0 | 0 | 1 | 0 | 0 | 69 |
-| last180d | 2026-03-26 | 0 | 0 | 1 | 0 | 0 | 118 |
-| 360d | 2025-09-27 | 0 | 0 | 1 | 0 | 0 | 213 |
-| last720d | 2024-10-02 | 0 | 0 | 1 | 0 | 0 | 623 |
+| 30d | 2026-08-24 | 0 | 0 | 1 | 0 | 0 | 25 |
+| last60d | 2026-07-25 | 0 | 0 | 1 | 0 | 0 | 41 |
+| 90d | 2026-06-25 | 0 | 0 | 1 | 0 | 0 | 71 |
+| last180d | 2026-03-27 | 0 | 0 | 1 | 0 | 0 | 120 |
+| 360d | 2025-09-28 | 0 | 0 | 1 | 0 | 0 | 215 |
+| last720d | 2024-10-03 | 0 | 0 | 1 | 0 | 0 | 625 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for gnupg lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:40:01Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:51:18Z._
