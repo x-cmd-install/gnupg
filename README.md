@@ -14,13 +14,13 @@ x install gnupg
 
 ## Code insight
 
-Total: **326,034** lines of code across **652** files in the top 5 languages.
+Total: **326,079** lines of code across **653** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 288,360 | 41,693 | 45,485 | 348 |
+| C | 288,376 | 41,696 | 45,488 | 348 |
 | CHeader | 12,229 | 6,316 | 3,490 | 157 |
-| Scheme | 6,903 | 2,766 | 1,263 | 121 |
+| Scheme | 6,930 | 2,786 | 1,274 | 122 |
 | Tex | 5,211 | 2,735 | 692 | 1 |
 | M4 | 3,147 | 1,055 | 194 | 25 |
 
@@ -31,7 +31,7 @@ Overall score: **3.5 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Token-Permissions** (-1/10) — No tokens found
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## Source
@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11281
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11285
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 0 | 1 | 0 | 0 | 21 |
-| last60d | 2026-07-30 | 0 | 0 | 1 | 0 | 0 | 40 |
-| 90d | 2026-06-30 | 0 | 0 | 1 | 0 | 0 | 68 |
-| last180d | 2026-04-01 | 0 | 0 | 1 | 0 | 0 | 122 |
-| 360d | 2025-10-03 | 0 | 0 | 1 | 0 | 0 | 216 |
-| last720d | 2024-10-08 | 0 | 0 | 1 | 0 | 0 | 628 |
+| 30d | 2026-08-30 | 0 | 0 | 0 | 0 | 0 | 25 |
+| last60d | 2026-07-31 | 0 | 0 | 1 | 0 | 0 | 44 |
+| 90d | 2026-07-01 | 0 | 0 | 1 | 0 | 0 | 72 |
+| last180d | 2026-04-02 | 0 | 0 | 1 | 0 | 0 | 126 |
+| 360d | 2025-10-04 | 0 | 0 | 1 | 0 | 0 | 220 |
+| last720d | 2024-10-09 | 0 | 0 | 1 | 0 | 0 | 630 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for gnupg lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T06:52:02Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T07:15:38Z._
