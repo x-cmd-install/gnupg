@@ -14,11 +14,11 @@ x install gnupg
 
 ## Code insight
 
-Total: **326,005** lines of code across **653** files in the top 5 languages.
+Total: **326,042** lines of code across **653** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 288,347 | 41,687 | 45,504 | 348 |
+| C | 288,384 | 41,685 | 45,506 | 348 |
 | CHeader | 12,184 | 6,318 | 3,491 | 157 |
 | Scheme | 6,930 | 2,786 | 1,274 | 122 |
 | Tex | 5,211 | 2,735 | 692 | 1 |
@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11302
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11305
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 0 | 0 | 0 | 0 | 23 |
-| last60d | 2026-08-14 | 0 | 0 | 1 | 0 | 0 | 45 |
-| 90d | 2026-07-15 | 0 | 0 | 1 | 0 | 0 | 76 |
-| last180d | 2026-04-16 | 0 | 0 | 1 | 0 | 0 | 125 |
-| 360d | 2025-10-18 | 0 | 0 | 1 | 0 | 0 | 218 |
-| last720d | 2024-10-23 | 0 | 0 | 1 | 0 | 0 | 640 |
+| 30d | 2026-09-14 | 0 | 0 | 0 | 0 | 0 | 25 |
+| last60d | 2026-08-15 | 0 | 0 | 1 | 0 | 0 | 47 |
+| 90d | 2026-07-16 | 0 | 0 | 1 | 0 | 0 | 78 |
+| last180d | 2026-04-17 | 0 | 0 | 1 | 0 | 0 | 127 |
+| 360d | 2025-10-19 | 0 | 0 | 1 | 0 | 0 | 220 |
+| last720d | 2024-10-24 | 0 | 0 | 1 | 0 | 0 | 642 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for gnupg lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T08:20:33Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T06:16:09Z._
