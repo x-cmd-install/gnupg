@@ -30,8 +30,8 @@ x install gnupg
 
 评分最低的几项:
 
-- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Token-Permissions** (-1/10) — No tokens found
 
 ## 源代码
@@ -42,7 +42,7 @@ x install gnupg
 
 ## 流行度
 
-- **Star**: 991 · **Fork**: 218 · **开放 issue**: 0 · **贡献者**: 70
+- **Star**: 991 · **Fork**: 219 · **开放 issue**: 0 · **贡献者**: 70
 
 ## 累计统计
 
@@ -52,12 +52,12 @@ x install gnupg
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 0 | 0 | 0 | 0 | 0 | 15 |
-| last60d | 2026-08-20 | 0 | 0 | 1 | 0 | 0 | 45 |
-| 90d | 2026-07-21 | 0 | 0 | 1 | 0 | 0 | 62 |
-| last180d | 2026-04-22 | 0 | 0 | 1 | 0 | 0 | 119 |
-| 360d | 2025-10-24 | 0 | 0 | 1 | 0 | 0 | 217 |
-| last720d | 2024-10-29 | 0 | 0 | 1 | 0 | 0 | 644 |
+| 30d | 2026-09-20 | 0 | 0 | 0 | 0 | 0 | 15 |
+| last60d | 2026-08-21 | 0 | 0 | 1 | 0 | 0 | 45 |
+| 90d | 2026-07-22 | 0 | 0 | 1 | 0 | 0 | 62 |
+| last180d | 2026-04-23 | 0 | 0 | 1 | 0 | 0 | 119 |
+| 360d | 2025-10-25 | 0 | 0 | 1 | 0 | 0 | 217 |
+| last720d | 2024-10-30 | 0 | 0 | 1 | 0 | 0 | 643 |
 
 ## 改进这些数据
 
@@ -68,4 +68,4 @@ gnupg 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261019.yml` · 2026-10-19T05:58:36Z._
+_数据快照: `data/card/261020.yml` · 2026-10-20T06:14:05Z._
