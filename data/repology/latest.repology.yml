@@ -1,32 +1,85 @@
-- repo: chimera
-  subrepo: main
-  srcname: gnupg
-  binname: gnupg-locale
-  visiblename: gnupg-locale
-  version: 2.4.9
-  origversion: 2.4.9-r2
-  status: outdated
-  summary: GNU Privacy Guard 2.x (locale data)
-  licenses:
-    - GPL-3.0-or-later
-- repo: chimera
-  subrepo: main
-  srcname: gnupg
-  binname: gnupg-man
-  visiblename: gnupg-man
-  version: 2.4.9
-  origversion: 2.4.9-r2
-  status: outdated
-  summary: GNU Privacy Guard 2.x (manual pages)
-  licenses:
-    - GPL-3.0-or-later
-- repo: chocolatey
-  binname: gnupg
-  visiblename: GnuPG
-  version: 2.5.21
+- repo: slackware64_15_0
+  subrepo: patches
+  binname: gnupg2
+  visiblename: gnupg2
+  version: 2.2.52
   origversion: null
   status: outdated
-  summary: GnuPG is a complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP)
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: gnupg
+  visiblename: gnupg
+  version: 1.4.23
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.7
+  origversion: 1.4.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.8
+  origversion: 1.4.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.9
+  origversion: 1.4.9-1
+  status: legacy
+  vulnerable: true
+- repo: scoop
+  subrepo: main
+  binname: gnupg
+  visiblename: gnupg
+  version: 2.5.24
+  origversion: null
+  status: newest
+  licenses:
+    - GPL-3.0-or-later
+- repo: slackware_current
+  subrepo: slackware
+  binname: gnupg2
+  visiblename: gnupg2
+  version: 2.5.24
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: gnupg2
+  visiblename: gnupg2
+  version: 2.5.24
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: aix_osp
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.14
+  origversion: 1.4.14-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.10
+  origversion: 1.4.10-1
+  status: legacy
+  vulnerable: true
 - repo: aerynos
   srcname: gnupg
   visiblename: gnupg
@@ -384,17 +437,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
-- repo: chimera
-  subrepo: main
-  srcname: gnupg
-  binname: gnupg-doc
-  visiblename: gnupg-doc
-  version: 2.4.9
-  origversion: 2.4.9-r2
-  status: outdated
-  summary: GNU Privacy Guard 2.x (documentation)
-  licenses:
-    - GPL-3.0-or-later
 - repo: alpine_3_21
   subrepo: main
   srcname: gnupg
@@ -415,6 +457,19 @@
   visiblename: gpgsm
   version: 2.4.9
   origversion: 2.4.9-r0
+  status: outdated
+  summary: GNU Privacy Guard 2 - S/MIME version
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: gnupg
+  binname: gpgsm
+  visiblename: gpgsm
+  version: 2.4.9
+  origversion: 2.4.9-r1
   status: outdated
   summary: GNU Privacy Guard 2 - S/MIME version
   maintainers:
@@ -963,19 +1018,6 @@
   origversion: 2.4.9-r1
   status: outdated
   summary: GNU Privacy Guard 2 - Web Key Service server
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: gnupg
-  binname: gpgsm
-  visiblename: gpgsm
-  version: 2.4.9
-  origversion: 2.4.9-r1
-  status: outdated
-  summary: GNU Privacy Guard 2 - S/MIME version
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -1295,6 +1337,46 @@
   summary: GNU Privacy Guard 2.x
   licenses:
     - GPL-3.0-or-later
+- repo: chimera
+  subrepo: main
+  srcname: gnupg
+  binname: gnupg-doc
+  visiblename: gnupg-doc
+  version: 2.4.9
+  origversion: 2.4.9-r2
+  status: outdated
+  summary: GNU Privacy Guard 2.x (documentation)
+  licenses:
+    - GPL-3.0-or-later
+- repo: chimera
+  subrepo: main
+  srcname: gnupg
+  binname: gnupg-locale
+  visiblename: gnupg-locale
+  version: 2.4.9
+  origversion: 2.4.9-r2
+  status: outdated
+  summary: GNU Privacy Guard 2.x (locale data)
+  licenses:
+    - GPL-3.0-or-later
+- repo: chimera
+  subrepo: main
+  srcname: gnupg
+  binname: gnupg-man
+  visiblename: gnupg-man
+  version: 2.4.9
+  origversion: 2.4.9-r2
+  status: outdated
+  summary: GNU Privacy Guard 2.x (manual pages)
+  licenses:
+    - GPL-3.0-or-later
+- repo: chocolatey
+  binname: gnupg
+  visiblename: GnuPG
+  version: 2.5.21
+  origversion: null
+  status: outdated
+  summary: GnuPG is a complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP)
 - repo: crux_37
   subrepo: opt
   srcname: gnupg
@@ -1532,6 +1614,20 @@
     - fallback-mnt-exherbo@repology
   categories:
     - app-crypt
+- repo: aix_osp
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.11
+  origversion: 1.4.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.11
+  origversion: 1.4.11-2
+  status: legacy
+  vulnerable: true
 - repo: fedora_42
   subrepo: updates
   srcname: gnupg2
@@ -1811,6 +1907,20 @@
     - GPL-3+
   categories:
     - app-crypt
+- repo: aix_osp
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.12
+  origversion: 1.4.12-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.13
+  origversion: 1.4.13-1
+  status: legacy
+  vulnerable: true
 - repo: liguros_develop
   srcname: app-crypt/gnupg
   visiblename: app-crypt/gnupg
@@ -2060,6 +2170,20 @@
     - pyrox@pyrox.dev
   licenses:
     - GPL-3.0-or-later
+- repo: adelie_current
+  subrepo: user
+  srcname: gnupg
+  binname: gnupg
+  visiblename: gnupg
+  version: 2.2.39
+  origversion: 2.2.39-r0
+  status: outdated
+  summary: Complete and free implementation of the OpenPGP standard
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - GPL-3.0+ AND GPL-2.0+ AND LGPL-2.1+ AND LGPL-3.0+ AND MIT AND BSD-3-Clause AND Public-Domain
+  vulnerable: true
 - repo: nix_stable_26_05
   srcname: gnupg1
   visiblename: gnupg1compat
@@ -2405,6 +2529,17 @@
     - LGPL-3.0-or-later OR GPL-2.0-or-later
     - MIT
     - Unicode-TOU
+- repo: side
+  srcname: runtime/_base_/gnupg
+  visiblename: gnupg
+  version: 2.4.9
+  origversion: null
+  status: outdated
+  summary: The GNU Privacy Guard.
+  maintainers:
+    - uglyside@yandex.ru
+  licenses:
+    - GPL-3
 - repo: pisi_main
   subrepo: main
   srcname: util/crypt/gnupg
@@ -2526,44 +2661,6 @@
   status: newest
   licenses:
     - GPL-3.0-or-later
-- repo: scoop
-  subrepo: main
-  binname: gnupg
-  visiblename: gnupg
-  version: 2.5.24
-  origversion: null
-  status: newest
-  licenses:
-    - GPL-3.0-or-later
-- repo: side
-  srcname: runtime/_base_/gnupg
-  visiblename: gnupg
-  version: 2.4.9
-  origversion: null
-  status: outdated
-  summary: The GNU Privacy Guard.
-  maintainers:
-    - uglyside@yandex.ru
-  licenses:
-    - GPL-3
-- repo: slackware_current
-  subrepo: slackware
-  binname: gnupg2
-  visiblename: gnupg2
-  version: 2.5.24
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: gnupg2
-  visiblename: gnupg2
-  version: 2.5.24
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
 - repo: solus
   srcname: gnupg
   binname: gnupg
@@ -2615,6 +2712,16 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: starkos
+  subrepo: main
+  srcname: gnupg
+  visiblename: gnupg
+  version: 2.5.24
+  origversion: 2.5.24-1
+  status: newest
+  summary: GNU's tool for secure communication and data storage
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: gnupg2
   visiblename: gnupg2
@@ -2726,12 +2833,47 @@
   origversion: null
   status: newest
   summary: complete implementation of the OpenPGP and S/MIME standards
-- repo: aix_osp
+- repo: adelie_current
+  subrepo: user
   srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.15
-  origversion: 1.4.15-1
-  status: legacy
+  binname: gnupg-dbg
+  visiblename: gnupg-dbg
+  version: 2.2.39
+  origversion: 2.2.39-r0
+  status: outdated
+  summary: Complete and free implementation of the OpenPGP standard (debug symbols)
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - GPL-3.0+ AND GPL-2.0+ AND LGPL-2.1+ AND LGPL-3.0+ AND MIT AND BSD-3-Clause AND Public-Domain
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: gnupg
+  binname: gnupg-doc
+  visiblename: gnupg-doc
+  version: 2.2.39
+  origversion: 2.2.39-r0
+  status: outdated
+  summary: Complete and free implementation of the OpenPGP standard (documentation)
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - GPL-3.0+ AND GPL-2.0+ AND LGPL-2.1+ AND LGPL-3.0+ AND MIT AND BSD-3-Clause AND Public-Domain
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: gnupg
+  binname: gnupg-lang
+  visiblename: gnupg-lang
+  version: 2.2.39
+  origversion: 2.2.39-r0
+  status: outdated
+  summary: Languages for package gnupg
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - GPL-3.0+ AND GPL-2.0+ AND LGPL-2.1+ AND LGPL-3.0+ AND MIT AND BSD-3-Clause AND Public-Domain
   vulnerable: true
 - repo: aix_osp
   srcname: gnupg
@@ -2782,204 +2924,12 @@
   origversion: 1.4.22-1
   status: outdated
   vulnerable: true
-- repo: aix_osp
-  srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.7
-  origversion: 1.4.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.8
-  origversion: 1.4.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.9
-  origversion: 1.4.9-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.11
-  origversion: 2.0.11-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.12
-  origversion: 2.0.12-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.13
-  origversion: 2.0.13-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.14
-  origversion: 2.0.14-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.15
-  origversion: 2.0.15-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.15
-  origversion: 2.0.15-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.16
-  origversion: 2.0.16-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.17
-  origversion: 2.0.17-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.18
-  origversion: 2.0.18-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.19
-  origversion: 2.0.19-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.20
-  origversion: 2.0.20-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.21
-  origversion: 2.0.21-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.22
-  origversion: 2.0.22-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.23
-  origversion: 2.0.23-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.24
-  origversion: 2.0.24-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.25
-  origversion: 2.0.25-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.26
-  origversion: 2.0.26-1
-  status: outdated
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.9
-  origversion: 2.0.9-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.12
-  origversion: 1.4.12-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.13
-  origversion: 1.4.13-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.14
-  origversion: 1.4.14-1
-  status: legacy
-  vulnerable: true
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: gnupg1
-  binnames:
-    - gnupg1
-    - gpgv1
-    - gnupg1-l10n
-  visiblename: gnupg1
-  version: 1.4.23
-  origversion: 1.4.23-3
-  status: legacy
-  maintainers:
-    - pkg-gnupg-maint@lists.alioth.debian.org
-    - debian@pusling.com
-    - dkg@fifthhorseman.net
-    - eric@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: almalinux_9
+- repo: almalinux_8
   subrepo: BaseOS
   srcname: gnupg2
-  binnames:
-    - gnupg2-debugsource
-    - gnupg2-debuginfo
-    - gnupg2-smime
-    - gnupg2
   visiblename: gnupg2
-  version: 2.3.3
-  origversion: 2.3.3-5.el9_7
+  version: 2.2.20
+  origversion: 2.2.20-3.el8_6
   status: outdated
   summary: Utility for secure communication and data storage
   maintainers:
@@ -2988,66 +2938,6 @@
     - GPLv3+
   categories:
     - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.22
-  origversion: 2.0.22-5.amzn2.0.2
-  status: outdated
-  summary: Utility for secure communication and data storage
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/System
-  vulnerable: true
-- repo: amazon_2
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.22
-  origversion: 2.0.22-5.amzn2.0.3
-  status: outdated
-  summary: Utility for secure communication and data storage
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/System
-  vulnerable: true
-- repo: amazon_2
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.22
-  origversion: 2.0.22-5.amzn2.0.4
-  status: outdated
-  summary: Utility for secure communication and data storage
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/System
-  vulnerable: true
-- repo: amazon_2
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.22
-  origversion: 2.0.22-5.amzn2.0.5
-  status: outdated
-  summary: Utility for secure communication and data storage
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/System
-  vulnerable: true
-- repo: amazon_2
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.22
-  origversion: 2.0.22-5.amzn2.0.6
-  status: outdated
-  summary: Utility for secure communication and data storage
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/System
   vulnerable: true
 - repo: almalinux_8
   subrepo: BaseOS
@@ -3064,110 +2954,17 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: gnupg
-  binname: gnupg
-  visiblename: gnupg
-  version: 2.2.39
-  origversion: 2.2.39-r0
-  status: outdated
-  summary: Complete and free implementation of the OpenPGP standard
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - GPL-3.0+ AND GPL-2.0+ AND LGPL-2.1+ AND LGPL-3.0+ AND MIT AND BSD-3-Clause AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: gnupg
-  binname: gnupg
-  visiblename: gnupg
-  version: 2.2.40
-  origversion: 2.2.40-r0
-  status: outdated
-  summary: GNU Privacy Guard 2 - meta package for full GnuPG suite
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: gnupg
-  binname: gnupg-dbg
-  visiblename: gnupg-dbg
-  version: 2.2.39
-  origversion: 2.2.39-r0
-  status: outdated
-  summary: Complete and free implementation of the OpenPGP standard (debug symbols)
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - GPL-3.0+ AND GPL-2.0+ AND LGPL-2.1+ AND LGPL-3.0+ AND MIT AND BSD-3-Clause AND Public-Domain
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: gnupg
-  binname: gnupg-doc
-  visiblename: gnupg-doc
-  version: 2.2.39
-  origversion: 2.2.39-r0
-  status: outdated
-  summary: Complete and free implementation of the OpenPGP standard (documentation)
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - GPL-3.0+ AND GPL-2.0+ AND LGPL-2.1+ AND LGPL-3.0+ AND MIT AND BSD-3-Clause AND Public-Domain
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: gnupg
-  binname: gnupg-lang
-  visiblename: gnupg-lang
-  version: 2.2.39
-  origversion: 2.2.39-r0
-  status: outdated
-  summary: Languages for package gnupg
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - GPL-3.0+ AND GPL-2.0+ AND LGPL-2.1+ AND LGPL-3.0+ AND MIT AND BSD-3-Clause AND Public-Domain
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.10
-  origversion: 1.4.10-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.10
-  origversion: 1.4.10-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.11
-  origversion: 1.4.11-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.11
-  origversion: 1.4.11-2
-  status: legacy
-  vulnerable: true
-- repo: almalinux_8
+- repo: almalinux_9
   subrepo: BaseOS
   srcname: gnupg2
+  binnames:
+    - gnupg2-debugsource
+    - gnupg2-debuginfo
+    - gnupg2-smime
+    - gnupg2
   visiblename: gnupg2
-  version: 2.2.20
-  origversion: 2.2.20-3.el8_6
+  version: 2.3.3
+  origversion: 2.3.3-5.el9_7
   status: outdated
   summary: Utility for secure communication and data storage
   maintainers:
@@ -3214,6 +3011,20 @@
   origversion: 2.2.40-r0
   status: outdated
   summary: GNU Privacy Guard 2 - public key operations only
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: gnupg
+  binname: gnupg
+  visiblename: gnupg
+  version: 2.2.40
+  origversion: 2.2.40-r0
+  status: outdated
+  summary: GNU Privacy Guard 2 - meta package for full GnuPG suite
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -3527,6 +3338,38 @@
   licenses:
     - GPL-3.0-or-later
   vulnerable: true
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: gnupg1
+  binnames:
+    - gnupg1
+    - gpgv1
+    - gnupg1-l10n
+  visiblename: gnupg1
+  version: 1.4.23
+  origversion: 1.4.23-3
+  status: legacy
+  maintainers:
+    - pkg-gnupg-maint@lists.alioth.debian.org
+    - debian@pusling.com
+    - dkg@fifthhorseman.net
+    - eric@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.19
+  origversion: 1.4.19-1.30.amzn1
+  status: outdated
+  summary: A GNU utility for secure communication and data storage
+  licenses:
+    - GPLv3+ with exceptions
+  categories:
+    - Applications/System
+  vulnerable: true
 - repo: alpine_3_18
   subrepo: main
   srcname: gnupg
@@ -3737,6 +3580,45 @@
   licenses:
     - GPL-3.0-or-later
   vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.28
+  origversion: 2.0.28-2.31.amzn1
+  status: outdated
+  summary: Utility for secure communication and data storage
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/System
+  vulnerable: true
+- repo: amazon_1
+  subrepo: main
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.28
+  origversion: 2.0.28-1.30.amzn1
+  status: outdated
+  summary: Utility for secure communication and data storage
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/System
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.19
+  origversion: 1.4.19-1.29.amzn1
+  status: outdated
+  summary: A GNU utility for secure communication and data storage
+  licenses:
+    - GPLv3+ with exceptions
+  categories:
+    - Applications/System
+  vulnerable: true
 - repo: centos_7
   subrepo: os
   srcname: gnupg2
@@ -3802,71 +3684,6 @@
     - Applications/System
   vulnerable: true
 - repo: amazon_1
-  subrepo: main
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.28
-  origversion: 2.0.28-1.30.amzn1
-  status: outdated
-  summary: Utility for secure communication and data storage
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/System
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.19
-  origversion: 1.4.19-1.29.amzn1
-  status: outdated
-  summary: A GNU utility for secure communication and data storage
-  licenses:
-    - GPLv3+ with exceptions
-  categories:
-    - Applications/System
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: gnupg
-  visiblename: gnupg
-  version: 1.4.19
-  origversion: 1.4.19-1.30.amzn1
-  status: outdated
-  summary: A GNU utility for secure communication and data storage
-  licenses:
-    - GPLv3+ with exceptions
-  categories:
-    - Applications/System
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.28
-  origversion: 2.0.28-2.31.amzn1
-  status: outdated
-  summary: Utility for secure communication and data storage
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/System
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.0.28
-  origversion: 2.0.28-2.32.amzn1
-  status: outdated
-  summary: Utility for secure communication and data storage
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/System
-  vulnerable: true
-- repo: amazon_1
   subrepo: updates
   srcname: gnupg2
   visiblename: gnupg2
@@ -3910,6 +3727,66 @@
   visiblename: gnupg2
   version: 2.0.22
   origversion: 2.0.22-4.amzn2
+  status: outdated
+  summary: Utility for secure communication and data storage
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/System
+  vulnerable: true
+- repo: amazon_2
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.22
+  origversion: 2.0.22-5.amzn2.0.2
+  status: outdated
+  summary: Utility for secure communication and data storage
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/System
+  vulnerable: true
+- repo: amazon_2
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.22
+  origversion: 2.0.22-5.amzn2.0.3
+  status: outdated
+  summary: Utility for secure communication and data storage
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/System
+  vulnerable: true
+- repo: amazon_2
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.22
+  origversion: 2.0.22-5.amzn2.0.4
+  status: outdated
+  summary: Utility for secure communication and data storage
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/System
+  vulnerable: true
+- repo: amazon_2
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.22
+  origversion: 2.0.22-5.amzn2.0.5
+  status: outdated
+  summary: Utility for secure communication and data storage
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/System
+  vulnerable: true
+- repo: amazon_2
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.22
+  origversion: 2.0.22-5.amzn2.0.6
   status: outdated
   summary: Utility for secure communication and data storage
   licenses:
@@ -4039,6 +3916,296 @@
     - ametzler@debian.org
     - dkg@fifthhorseman.net
     - eric@debian.org
+  vulnerable: true
+- repo: liguros_stable
+  srcname: app-crypt/gnupg
+  visiblename: app-crypt/gnupg
+  version: 2.5.1
+  origversion: 2.5.1-r1
+  status: outdated
+  summary: The GNU Privacy Guard, a GPL OpenPGP implementation
+  maintainers:
+    - base-system@gentoo.org
+  licenses:
+    - GPL-3+
+  categories:
+    - app-crypt
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.28
+  origversion: 2.0.28-2.32.amzn1
+  status: outdated
+  summary: Utility for secure communication and data storage
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/System
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: gnupg
+  visiblename: gnupg
+  version: 1.4.23
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.11
+  origversion: 2.0.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.12
+  origversion: 2.0.12-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.13
+  origversion: 2.0.13-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.14
+  origversion: 2.0.14-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.15
+  origversion: 2.0.15-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.15
+  origversion: 2.0.15-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.16
+  origversion: 2.0.16-1
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: gnupg
+  binname: gnupg
+  visiblename: gnupg
+  version: 2.0.31
+  origversion: null
+  status: outdated
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.17
+  origversion: 2.0.17-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.18
+  origversion: 2.0.18-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.19
+  origversion: 2.0.19-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.10
+  origversion: 1.4.10-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.20
+  origversion: 2.0.20-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.21
+  origversion: 2.0.21-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.22
+  origversion: 2.0.22-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.23
+  origversion: 2.0.23-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.24
+  origversion: 2.0.24-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.25
+  origversion: 2.0.25-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.26
+  origversion: 2.0.26-1
+  status: outdated
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.0.9
+  origversion: 2.0.9-1
+  status: legacy
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: gnupg2
+  visiblename: gnupg2
+  version: 2.2.33
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: openpkg_current
+  srcname: gnupg
+  visiblename: gnupg
+  version: 2.4.5
+  origversion: null
+  status: outdated
+  summary: GNU Privacy Guard
+  licenses:
+    - GPL
+  categories:
+    - PGP
+  vulnerable: true
+- repo: openpkg_current
+  srcname: gnupg1
+  visiblename: gnupg1
+  version: 1.4.23
+  origversion: null
+  status: legacy
+  summary: GNU Privacy Guard (V1)
+  licenses:
+    - GPL
+  categories:
+    - PGP
+  vulnerable: true
+- repo: scoop
+  subrepo: main
+  binname: gnupg1
+  visiblename: gnupg1
+  version: 1.4.23
+  origversion: null
+  status: legacy
+  licenses:
+    - GPL-3.0-or-later
+  vulnerable: true
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: gnupg
+  visiblename: gnupg
+  version: 1.4.23
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: gnupg2
+  visiblename: gnupg2
+  version: 2.2.33
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackware_15_0
+  subrepo: patches
+  binname: gnupg2
+  visiblename: gnupg2
+  version: 2.2.52
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackware_current
+  subrepo: slackware
+  binname: gnupg
+  visiblename: gnupg
+  version: 1.4.23
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: gnupg
+  visiblename: gnupg
+  version: 1.4.23
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: aix_osp
+  srcname: gnupg
+  visiblename: gnupg
+  version: 1.4.15
+  origversion: 1.4.15-1
+  status: legacy
+  vulnerable: true
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: gnupg2
+  visiblename: gnupg2
+  version: 2.2.33
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: apertis_v2027
   subrepo: v2027dev1/development
@@ -4330,24 +4497,39 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: gnupg1
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: gnupg2
   binnames:
-    - gnupg1
-    - gpgv1
-    - gnupg1-l10n
-  visiblename: gnupg1
-  version: 1.4.23
-  origversion: 1.4.23-1.1
-  status: legacy
+    - gpgconf
+    - gnupg-agent
+    - gpg-agent
+    - gpg-wks-server
+    - gpg-wks-client
+    - scdaemon
+    - gpgsm
+    - gpg
+    - gnupg
+    - gnupg2
+    - gpgv
+    - gpgv2
+    - dirmngr
+    - gpgv-udeb
+    - gpgv-static
+    - gpgv-win32
+    - gnupg-l10n
+    - gnupg-utils
+  visiblename: gnupg2
+  version: 2.2.27
+  origversion: 2.2.27-2+deb11u2
+  status: outdated
   maintainers:
     - pkg-gnupg-maint@lists.alioth.debian.org
-    - debian@pusling.com
+    - debian.axhn@manchmal.in-ulm.de
     - dkg@fifthhorseman.net
     - eric@debian.org
   categories:
-    - misc
+    - oldlibs
   vulnerable: true
 - repo: centos_stream_10
   subrepo: BaseOS
@@ -4388,6 +4570,16 @@
     - CC0-1.0 AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later AND (BSD-3-Clause OR LGPL-3.0-or-later OR GPL-2.0-or-later) AND CC-BY-4.0 AND MIT
   categories:
     - Unspecified
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: gnupg2
+  visiblename: gnupg2
+  version: 2.2.52
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: chocolatey
   binname: gnupg-modern
@@ -4434,55 +4626,6 @@
     - Debug
   vulnerable: true
 - repo: debian_11
-  subrepo: bullseye/main
-  srcname: gnupg2
-  binnames:
-    - gpgconf
-    - gnupg-agent
-    - gpg-agent
-    - gpg-wks-server
-    - gpg-wks-client
-    - scdaemon
-    - gpgsm
-    - gpg
-    - gnupg
-    - gnupg2
-    - gpgv
-    - gpgv2
-    - dirmngr
-    - gpgv-udeb
-    - gpgv-static
-    - gpgv-win32
-    - gnupg-l10n
-    - gnupg-utils
-  visiblename: gnupg2
-  version: 2.2.27
-  origversion: 2.2.27-2+deb11u2
-  status: outdated
-  maintainers:
-    - pkg-gnupg-maint@lists.alioth.debian.org
-    - debian.axhn@manchmal.in-ulm.de
-    - dkg@fifthhorseman.net
-    - eric@debian.org
-  categories:
-    - oldlibs
-  vulnerable: true
-- repo: ibmi
-  srcname: gnupg2
-  binnames:
-    - gnupg2-smime
-    - gnupg2
-  visiblename: gnupg2
-  version: 2.4.7
-  origversion: 2.4.7-2
-  status: outdated
-  summary: Complete and free implementation of the OpenPGP standard
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: debian_11
   subrepo: bullseye-security/main
   srcname: gnupg2
   binnames:
@@ -4507,6 +4650,59 @@
   visiblename: gnupg2
   version: 2.2.27
   origversion: 2.2.27-2+deb11u3
+  status: outdated
+  maintainers:
+    - pkg-gnupg-maint@lists.alioth.debian.org
+    - debian.axhn@manchmal.in-ulm.de
+    - dkg@fifthhorseman.net
+    - eric@debian.org
+  categories:
+    - oldlibs
+  vulnerable: true
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: gnupg1
+  binnames:
+    - gnupg1
+    - gpgv1
+    - gnupg1-l10n
+  visiblename: gnupg1
+  version: 1.4.23
+  origversion: 1.4.23-1.1
+  status: legacy
+  maintainers:
+    - pkg-gnupg-maint@lists.alioth.debian.org
+    - debian@pusling.com
+    - dkg@fifthhorseman.net
+    - eric@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: gnupg2
+  binnames:
+    - gpgconf
+    - gnupg-agent
+    - gpg-agent
+    - gpg-wks-server
+    - gpg-wks-client
+    - scdaemon
+    - gpgsm
+    - gpg
+    - gnupg
+    - gnupg2
+    - gpgv
+    - gpgv2
+    - dirmngr
+    - gpgv-udeb
+    - gpgv-static
+    - gpgv-win32
+    - gnupg-l10n
+    - gnupg-utils
+  visiblename: gnupg2
+  version: 2.2.27
+  origversion: 2.2.27-2+deb11u2
   status: outdated
   maintainers:
     - pkg-gnupg-maint@lists.alioth.debian.org
@@ -4674,39 +4870,31 @@
   categories:
     - oldlibs
   vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: eurolinux_8
+  subrepo: baseos
   srcname: gnupg2
-  binnames:
-    - gpgconf
-    - gnupg-agent
-    - gpg-agent
-    - gpg-wks-server
-    - gpg-wks-client
-    - scdaemon
-    - gpgsm
-    - gpg
-    - gnupg
-    - gnupg2
-    - gpgv
-    - gpgv2
-    - dirmngr
-    - gpgv-udeb
-    - gpgv-static
-    - gpgv-win32
-    - gnupg-l10n
-    - gnupg-utils
   visiblename: gnupg2
-  version: 2.2.27
-  origversion: 2.2.27-2+deb11u2
+  version: 2.2.20
+  origversion: 2.2.20-2.el8
   status: outdated
-  maintainers:
-    - pkg-gnupg-maint@lists.alioth.debian.org
-    - debian.axhn@manchmal.in-ulm.de
-    - dkg@fifthhorseman.net
-    - eric@debian.org
+  summary: Utility for secure communication and data storage
+  licenses:
+    - GPLv3+
   categories:
-    - oldlibs
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: gnupg2
+  visiblename: gnupg2
+  version: 2.2.20
+  origversion: 2.2.20-3.el8_6
+  status: outdated
+  summary: Utility for secure communication and data storage
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: debian_unstable
   subrepo: sid/main
@@ -4880,18 +5068,6 @@
   categories:
     - utils
   vulnerable: true
-- repo: nix_stable_24_05
-  srcname: gnupg1orig
-  visiblename: gnupg
-  version: 1.4.23
-  origversion: null
-  status: legacy
-  summary: Classic (1.4) release of the GNU Privacy Guard, a GPL OpenPGP implementation
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
 - repo: deepin_25
   subrepo: main
   srcname: gnupg2
@@ -4968,32 +5144,6 @@
   subrepo: baseos
   srcname: gnupg2
   visiblename: gnupg2
-  version: 2.2.20
-  origversion: 2.2.20-2.el8
-  status: outdated
-  summary: Utility for secure communication and data storage
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: gnupg2
-  visiblename: gnupg2
-  version: 2.2.20
-  origversion: 2.2.20-3.el8_6
-  status: outdated
-  summary: Utility for secure communication and data storage
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: gnupg2
-  visiblename: gnupg2
   version: 2.2.9
   origversion: 2.2.9-1.el8
   status: legacy
@@ -5058,24 +5208,6 @@
     - Unspecified
   vulnerable: true
 - repo: fedora_39
-  subrepo: updates
-  srcname: gnupg2
-  binnames:
-    - gnupg2
-    - gnupg2-smime
-    - gnupg2-debuginfo
-    - gnupg2-debugsource
-  visiblename: gnupg2
-  version: 2.4.4
-  origversion: 2.4.4-1.fc39
-  status: outdated
-  summary: Utility for secure communication and data storage
-  licenses:
-    - CC0-1.0 AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later AND (BSD-3-Clause OR LGPL-3.0-or-later OR GPL-2.0-or-later) AND CC-BY-4.0 AND MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_39
   subrepo: release
   srcname: gnupg1
   binnames:
@@ -5104,6 +5236,24 @@
   version: 2.4.3
   origversion: 2.4.3-2.fc39
   status: legacy
+  summary: Utility for secure communication and data storage
+  licenses:
+    - CC0-1.0 AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later AND (BSD-3-Clause OR LGPL-3.0-or-later OR GPL-2.0-or-later) AND CC-BY-4.0 AND MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_39
+  subrepo: updates
+  srcname: gnupg2
+  binnames:
+    - gnupg2
+    - gnupg2-smime
+    - gnupg2-debuginfo
+    - gnupg2-debugsource
+  visiblename: gnupg2
+  version: 2.4.4
+  origversion: 2.4.4-1.fc39
+  status: outdated
   summary: Utility for secure communication and data storage
   licenses:
     - CC0-1.0 AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later AND (BSD-3-Clause OR LGPL-3.0-or-later OR GPL-2.0-or-later) AND CC-BY-4.0 AND MIT
@@ -5206,6 +5356,24 @@
     - CC0-1.0 AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later AND (BSD-3-Clause OR LGPL-3.0-or-later OR GPL-2.0-or-later) AND CC-BY-4.0 AND MIT
   categories:
     - Unspecified
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: gnupg
+  binname: gnupg
+  visiblename: gnupg
+  version: 2.0.31
+  origversion: null
+  status: outdated
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: gnupg
+  binname: gnupg
+  visiblename: gnupg
+  version: 2.0.30
+  origversion: null
+  status: legacy
   vulnerable: true
 - repo: fedora_43
   subrepo: release
@@ -5316,32 +5484,20 @@
   origversion: null
   status: legacy
   vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: gnupg
-  binname: gnupg
-  visiblename: gnupg
-  version: 2.0.31
-  origversion: null
+- repo: ibmi
+  srcname: gnupg2
+  binnames:
+    - gnupg2
+    - gnupg2-smime
+  visiblename: gnupg2
+  version: 2.4.7
+  origversion: 2.4.7-2
   status: outdated
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: gnupg
-  binname: gnupg
-  visiblename: gnupg
-  version: 2.0.30
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: gnupg
-  binname: gnupg
-  visiblename: gnupg
-  version: 2.0.31
-  origversion: null
-  status: outdated
+  summary: Complete and free implementation of the OpenPGP standard
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: kali_rolling
   subrepo: main
@@ -5414,20 +5570,6 @@
   categories:
     - app-crypt
   vulnerable: true
-- repo: liguros_stable
-  srcname: app-crypt/gnupg
-  visiblename: app-crypt/gnupg
-  version: 2.5.1
-  origversion: 2.5.1-r1
-  status: outdated
-  summary: The GNU Privacy Guard, a GPL OpenPGP implementation
-  maintainers:
-    - base-system@gentoo.org
-  licenses:
-    - GPL-3+
-  categories:
-    - app-crypt
-  vulnerable: true
 - repo: macports
   srcname: mail/gnupg1
   binname: gnupg1
@@ -5443,6 +5585,23 @@
     - GPL-3+
   categories:
     - mail
+  vulnerable: true
+- repo: mageia_9
+  subrepo: core/release
+  srcname: gnupg2
+  binnames:
+    - gnupg2
+    - gnupg2-debuginfo
+    - gnupg2-debugsource
+  visiblename: gnupg2
+  version: 2.3.8
+  origversion: 2.3.8-1.mga9
+  status: outdated
+  summary: GNU privacy guard - a free PGP replacement
+  licenses:
+    - GPLv3+
+  categories:
+    - File tools
   vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
@@ -5512,23 +5671,6 @@
   categories:
     - File tools
   vulnerable: true
-- repo: mageia_9
-  subrepo: core/release
-  srcname: gnupg2
-  binnames:
-    - gnupg2
-    - gnupg2-debuginfo
-    - gnupg2-debugsource
-  visiblename: gnupg2
-  version: 2.3.8
-  origversion: 2.3.8-1.mga9
-  status: outdated
-  summary: GNU privacy guard - a free PGP replacement
-  licenses:
-    - GPLv3+
-  categories:
-    - File tools
-  vulnerable: true
 - repo: nix_stable_24_05
   srcname: gnupg
   visiblename: gnupg
@@ -5552,6 +5694,18 @@
   maintainers:
     - fpletz@fnordicwalking.de
     - rahul@gopinath.org
+  licenses:
+    - GPL-3.0-or-later
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: gnupg1orig
+  visiblename: gnupg
+  version: 1.4.23
+  origversion: null
+  status: legacy
+  summary: Classic (1.4) release of the GNU Privacy Guard, a GPL OpenPGP implementation
+  maintainers:
+    - fallback-mnt-nix@repology
   licenses:
     - GPL-3.0-or-later
   vulnerable: true
@@ -5643,6 +5797,16 @@
     - stig@stig.io
   licenses:
     - GPL-3.0-or-later
+  vulnerable: true
+- repo: serenityos
+  srcname: gnupg
+  visiblename: gnupg
+  version: 2.4.5
+  origversion: null
+  status: outdated
+  summary: Universal crypto engine
+  categories:
+    - Encryption software
   vulnerable: true
 - repo: openeuler_20_03_lts_sp3
   srcname: gnupg2
@@ -5788,11 +5952,11 @@
     - Unspecified
   vulnerable: true
 - repo: opensuse_leap_15_5
-  subrepo: updates/sle
+  subrepo: main/oss
   srcname: gpg2
   visiblename: gpg2
   version: 2.2.27
-  origversion: 2.2.27-150300.3.8.1
+  origversion: 2.2.27-150300.3.5.1
   status: outdated
   summary: File encryption, decryption, signature creation and verification utility
   licenses:
@@ -5953,36 +6117,25 @@
   categories:
     - File tools
   vulnerable: true
-- repo: openpkg_current
-  srcname: gnupg
-  visiblename: gnupg
-  version: 2.4.5
-  origversion: null
-  status: outdated
-  summary: GNU Privacy Guard
-  licenses:
-    - GPL
-  categories:
-    - PGP
-  vulnerable: true
-- repo: openpkg_current
-  srcname: gnupg1
-  visiblename: gnupg1
-  version: 1.4.23
-  origversion: null
-  status: legacy
-  summary: GNU Privacy Guard (V1)
-  licenses:
-    - GPL
-  categories:
-    - PGP
-  vulnerable: true
 - repo: opensuse_leap_15_5
-  subrepo: main/oss
+  subrepo: updates/sle
   srcname: gpg2
   visiblename: gpg2
   version: 2.2.27
-  origversion: 2.2.27-150300.3.5.1
+  origversion: 2.2.27-150300.3.8.1
+  status: outdated
+  summary: File encryption, decryption, signature creation and verification utility
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Networking/Security
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: gpg2
+  visiblename: gpg2
+  version: 2.4.4
+  origversion: 2.4.4-150600.1.4
   status: outdated
   summary: File encryption, decryption, signature creation and verification utility
   licenses:
@@ -6022,19 +6175,6 @@
   visiblename: gpg2
   version: 2.4.4
   origversion: 2.4.4-150600.3.9.1
-  status: outdated
-  summary: File encryption, decryption, signature creation and verification utility
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Productivity/Networking/Security
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: gpg2
-  visiblename: gpg2
-  version: 2.4.4
-  origversion: 2.4.4-150600.1.4
   status: outdated
   summary: File encryption, decryption, signature creation and verification utility
   licenses:
@@ -6312,7 +6452,7 @@
     - oldlibs
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gnupg1
   binnames:
     - gnupg1
@@ -6331,7 +6471,7 @@
     - misc
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gnupg2
   binnames:
     - gpgconf
@@ -6365,7 +6505,7 @@
     - utils
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gnupg1
   binnames:
     - gnupg1
@@ -6384,7 +6524,7 @@
     - misc
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gnupg2
   binnames:
     - gpgconf
@@ -6615,16 +6755,6 @@
     - eric@debian.org
   categories:
     - utils
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: gnupg2
-  visiblename: gnupg2
-  version: 2.2.52
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
   vulnerable: true
 - repo: pureos_landing
   subrepo: landing/main
@@ -6906,126 +7036,6 @@
   categories:
     - File tools
   vulnerable: true
-- repo: scoop
-  subrepo: main
-  binname: gnupg1
-  visiblename: gnupg1
-  version: 1.4.23
-  origversion: null
-  status: legacy
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: serenityos
-  srcname: gnupg
-  visiblename: gnupg
-  version: 2.4.5
-  origversion: null
-  status: outdated
-  summary: Universal crypto engine
-  categories:
-    - Encryption software
-  vulnerable: true
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: gnupg
-  visiblename: gnupg
-  version: 1.4.23
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: gnupg2
-  visiblename: gnupg2
-  version: 2.2.33
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackware_15_0
-  subrepo: patches
-  binname: gnupg2
-  visiblename: gnupg2
-  version: 2.2.52
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackware_current
-  subrepo: slackware
-  binname: gnupg
-  visiblename: gnupg
-  version: 1.4.23
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: gnupg
-  visiblename: gnupg
-  version: 1.4.23
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: gnupg2
-  visiblename: gnupg2
-  version: 2.2.33
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackware64_15_0
-  subrepo: patches
-  binname: gnupg2
-  visiblename: gnupg2
-  version: 2.2.52
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: gnupg
-  visiblename: gnupg
-  version: 1.4.23
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: gnupg
-  visiblename: gnupg
-  version: 1.4.23
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: gnupg2
-  visiblename: gnupg2
-  version: 2.2.33
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
 - repo: t2
   srcname: gnupg
   visiblename: gnupg
@@ -7052,45 +7062,6 @@
     - GPLv3+
   categories:
     - Unspecified
-  vulnerable: true
-- repo: ubuntu_14_04
-  subrepo: trusty/main
-  srcname: gnupg
-  binnames:
-    - gnupg
-    - gnupg-curl
-    - gpgv
-    - gnupg-udeb
-    - gpgv-udeb
-  visiblename: gnupg
-  version: 1.4.16
-  origversion: 1.4.16-1ubuntu2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - debian@pusling.com
-    - dleidert@debian.org
-    - thijs@debian.org
-  categories:
-    - utils
-  vulnerable: true
-- repo: ubuntu_14_04
-  subrepo: trusty/main
-  srcname: gnupg2
-  binnames:
-    - gnupg-agent
-    - scdaemon
-    - gpgsm
-    - gnupg2
-    - gpgv2
-  visiblename: gnupg2
-  version: 2.0.22
-  origversion: 2.0.22-3ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - utils
   vulnerable: true
 - repo: ubuntu_14_04
   subrepo: trusty-updates/main
@@ -7125,6 +7096,45 @@
   visiblename: gnupg2
   version: 2.0.22
   origversion: 2.0.22-3ubuntu1.4
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - utils
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty/main
+  srcname: gnupg
+  binnames:
+    - gnupg
+    - gnupg-curl
+    - gpgv
+    - gnupg-udeb
+    - gpgv-udeb
+  visiblename: gnupg
+  version: 1.4.16
+  origversion: 1.4.16-1ubuntu2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - debian@pusling.com
+    - dleidert@debian.org
+    - thijs@debian.org
+  categories:
+    - utils
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty/main
+  srcname: gnupg2
+  binnames:
+    - gnupg-agent
+    - scdaemon
+    - gpgsm
+    - gnupg2
+    - gpgv2
+  visiblename: gnupg2
+  version: 2.0.22
+  origversion: 2.0.22-3ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -7220,39 +7230,6 @@
     - utils
   vulnerable: true
 - repo: ubuntu_18_04
-  subrepo: bionic-updates/main
-  srcname: gnupg2
-  binnames:
-    - gpgconf
-    - gnupg-agent
-    - gpg-agent
-    - gpg-wks-server
-    - gpg-wks-client
-    - scdaemon
-    - gpgsm
-    - gpg
-    - gnupg
-    - gnupg2
-    - gpgv
-    - gpgv2
-    - dirmngr
-    - gpgv-udeb
-    - gpgv-static
-    - gpgv-win32
-    - gnupg-l10n
-    - gnupg-utils
-  visiblename: gnupg2
-  version: 2.2.4
-  origversion: 2.2.4-1ubuntu1.6
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - dkg@fifthhorseman.net
-    - eric@debian.org
-  categories:
-    - utils
-  vulnerable: true
-- repo: ubuntu_18_04
   subrepo: bionic/main
   srcname: gnupg2
   binnames:
@@ -7303,6 +7280,39 @@
     - eric@debian.org
   categories:
     - universe/misc
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic-updates/main
+  srcname: gnupg2
+  binnames:
+    - gpgconf
+    - gnupg-agent
+    - gpg-agent
+    - gpg-wks-server
+    - gpg-wks-client
+    - scdaemon
+    - gpgsm
+    - gpg
+    - gnupg
+    - gnupg2
+    - gpgv
+    - gpgv2
+    - dirmngr
+    - gpgv-udeb
+    - gpgv-static
+    - gpgv-win32
+    - gnupg-l10n
+    - gnupg-utils
+  visiblename: gnupg2
+  version: 2.2.4
+  origversion: 2.2.4-1ubuntu1.6
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - dkg@fifthhorseman.net
+    - eric@debian.org
+  categories:
+    - utils
   vulnerable: true
 - repo: ubuntu_20_04
   subrepo: focal-updates/main
@@ -7423,20 +7433,6 @@
   categories:
     - utils
   vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: gnupg1
-  binname: gnupg1
-  visiblename: gnupg1
-  version: 1.4.23
-  origversion: 1.4.23_2
-  status: legacy
-  summary: GNU Privacy Guard v1
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: gnupg1
@@ -7485,6 +7481,39 @@
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
     - debian.axhn@manchmal.in-ulm.de
+    - dkg@fifthhorseman.net
+    - eric@debian.org
+  categories:
+    - utils
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble-updates/main
+  srcname: gnupg2
+  binnames:
+    - gpgconf
+    - gnupg-agent
+    - gpg-agent
+    - gpg-wks-server
+    - gpg-wks-client
+    - scdaemon
+    - gpgsm
+    - gpg
+    - gnupg
+    - gnupg2
+    - gpgv
+    - dirmngr
+    - keyboxd
+    - gpgv-udeb
+    - gpgv-static
+    - gpgv-win32
+    - gnupg-l10n
+    - gnupg-utils
+  visiblename: gnupg2
+  version: 2.4.4
+  origversion: 2.4.4-2ubuntu17.6
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - dkg@fifthhorseman.net
     - eric@debian.org
   categories:
@@ -7541,39 +7570,6 @@
     - eric@debian.org
   categories:
     - universe/misc
-  vulnerable: true
-- repo: ubuntu_24_04
-  subrepo: noble-updates/main
-  srcname: gnupg2
-  binnames:
-    - gpgconf
-    - gnupg-agent
-    - gpg-agent
-    - gpg-wks-server
-    - gpg-wks-client
-    - scdaemon
-    - gpgsm
-    - gpg
-    - gnupg
-    - gnupg2
-    - gpgv
-    - dirmngr
-    - keyboxd
-    - gpgv-udeb
-    - gpgv-static
-    - gpgv-win32
-    - gnupg-l10n
-    - gnupg-utils
-  visiblename: gnupg2
-  version: 2.4.4
-  origversion: 2.4.4-2ubuntu17.6
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - dkg@fifthhorseman.net
-    - eric@debian.org
-  categories:
-    - utils
   vulnerable: true
 - repo: ubuntu_25_04
   subrepo: plucky-updates/main
@@ -7846,4 +7842,18 @@
     - eric@debian.org
   categories:
     - universe/misc
+  vulnerable: true
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: gnupg1
+  binname: gnupg1
+  visiblename: gnupg1
+  version: 1.4.23
+  origversion: 1.4.23_2
+  status: legacy
+  summary: GNU Privacy Guard v1
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - GPL-3.0-or-later
   vulnerable: true
