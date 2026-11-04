@@ -14,12 +14,12 @@ x install gnupg
 
 ## Code insight
 
-Total: **326,574** lines of code across **654** files in the top 5 languages.
+Total: **326,776** lines of code across **656** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 288,897 | 41,756 | 45,603 | 349 |
-| CHeader | 12,202 | 6,322 | 3,496 | 157 |
+| C | 289,088 | 41,789 | 45,630 | 350 |
+| CHeader | 12,211 | 6,350 | 3,504 | 158 |
 | Scheme | 6,930 | 2,786 | 1,274 | 122 |
 | Tex | 5,211 | 2,735 | 692 | 1 |
 | M4 | 3,147 | 1,055 | 194 | 25 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 995 · **Forks**: 217 · **Open issues**: 0 · **Contributors**: 70
+- **Stars**: 997 · **Forks**: 218 · **Open issues**: 0 · **Contributors**: 70
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11312
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11313
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 0 | 0 | 0 | 0 | 10 |
-| last60d | 2026-09-04 | 0 | 0 | 0 | 0 | 0 | 38 |
-| 90d | 2026-08-05 | 0 | 0 | 1 | 0 | 0 | 52 |
-| last180d | 2026-05-07 | 0 | 0 | 1 | 0 | 0 | 106 |
-| 360d | 2025-11-08 | 0 | 0 | 1 | 0 | 0 | 215 |
-| last720d | 2024-11-13 | 0 | 0 | 1 | 0 | 0 | 633 |
+| 30d | 2026-10-05 | 0 | 0 | 0 | 0 | 0 | 11 |
+| last60d | 2026-09-05 | 0 | 0 | 0 | 0 | 0 | 39 |
+| 90d | 2026-08-06 | 0 | 0 | 1 | 0 | 0 | 53 |
+| last180d | 2026-05-08 | 0 | 0 | 1 | 0 | 0 | 107 |
+| 360d | 2025-11-09 | 0 | 0 | 1 | 0 | 0 | 216 |
+| last720d | 2024-11-14 | 0 | 0 | 1 | 0 | 0 | 633 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for gnupg lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T08:25:46Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:53:54Z._
