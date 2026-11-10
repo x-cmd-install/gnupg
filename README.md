@@ -31,7 +31,7 @@ Overall score: **3.5 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 999 · **Forks**: 219 · **Open issues**: 0 · **Contributors**: 70
+- **Stars**: 1,001 · **Forks**: 219 · **Open issues**: 0 · **Contributors**: 70
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 2 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11317
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 2 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11318
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 1 | 0 | 0 | 7 |
-| last60d | 2026-09-09 | 0 | 0 | 1 | 0 | 0 | 34 |
-| 90d | 2026-08-10 | 0 | 0 | 2 | 0 | 0 | 54 |
-| last180d | 2026-05-12 | 0 | 0 | 2 | 0 | 0 | 103 |
-| 360d | 2025-11-13 | 0 | 0 | 2 | 0 | 0 | 197 |
-| last720d | 2024-11-18 | 0 | 0 | 2 | 0 | 0 | 633 |
+| 30d | 2026-10-11 | 0 | 0 | 1 | 0 | 0 | 7 |
+| last60d | 2026-09-11 | 0 | 0 | 1 | 0 | 0 | 34 |
+| 90d | 2026-08-12 | 0 | 0 | 2 | 0 | 0 | 54 |
+| last180d | 2026-05-14 | 0 | 0 | 2 | 0 | 0 | 103 |
+| 360d | 2025-11-15 | 0 | 0 | 2 | 0 | 0 | 197 |
+| last720d | 2024-11-20 | 0 | 0 | 2 | 0 | 0 | 633 |
 
 ## Distribution status
 
@@ -68,8 +68,8 @@ Reported by **508** distros on [repology.org](https://repology.org/project/gnupg
 | Debian unstable | `2.4.9` | ⚠️ outdated |
 | Debian 14 | `2.4.9` | ⚠️ outdated |
 | Debian 13 | `1.4.23` | 🪦 legacy |
-| Ubuntu 26.04 LTS | `1.4.23` | 🪦 legacy |
-| Ubuntu 24.04 LTS | `2.4.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.4.8` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.4.23` | 🪦 legacy |
 | Arch | `2.4.9` | ⚠️ outdated |
 | Homebrew | `2.5.24` | ✅ latest |
 | Fedora rawhide | `2.4.9` | ⚠️ outdated |
@@ -87,4 +87,4 @@ Install metadata for gnupg lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T07:22:15Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T09:06:35Z._
