@@ -14,11 +14,11 @@ x install gnupg
 
 ## Code insight
 
-Total: **327,844** lines of code across **657** files in the top 5 languages.
+Total: **327,864** lines of code across **657** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 290,129 | 41,957 | 45,738 | 351 |
+| C | 290,149 | 41,961 | 45,738 | 351 |
 | CHeader | 12,239 | 6,352 | 3,508 | 158 |
 | Scheme | 6,930 | 2,786 | 1,274 | 122 |
 | Tex | 5,211 | 2,735 | 692 | 1 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,002 · **Forks**: 220 · **Open issues**: 0 · **Contributors**: 71
+- **Stars**: 1,003 · **Forks**: 220 · **Open issues**: 0 · **Contributors**: 71
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 2 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11327
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 2 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11328
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 0 | 1 | 0 | 0 | 15 |
-| last60d | 2026-09-13 | 0 | 0 | 1 | 0 | 0 | 42 |
-| 90d | 2026-08-14 | 0 | 0 | 2 | 0 | 0 | 62 |
-| last180d | 2026-05-16 | 0 | 0 | 2 | 0 | 0 | 111 |
-| 360d | 2025-11-17 | 0 | 0 | 2 | 0 | 0 | 205 |
-| last720d | 2024-11-22 | 0 | 0 | 2 | 0 | 0 | 642 |
+| 30d | 2026-10-14 | 0 | 0 | 1 | 0 | 0 | 16 |
+| last60d | 2026-09-14 | 0 | 0 | 1 | 0 | 0 | 43 |
+| 90d | 2026-08-15 | 0 | 0 | 2 | 0 | 0 | 63 |
+| last180d | 2026-05-17 | 0 | 0 | 2 | 0 | 0 | 112 |
+| 360d | 2025-11-18 | 0 | 0 | 2 | 0 | 0 | 206 |
+| last720d | 2024-11-23 | 0 | 0 | 2 | 0 | 0 | 641 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for gnupg lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T09:17:41Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T08:34:05Z._
