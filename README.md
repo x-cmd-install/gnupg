@@ -14,12 +14,12 @@ x install gnupg
 
 ## Code insight
 
-Total: **327,874** lines of code across **657** files in the top 5 languages.
+Total: **327,895** lines of code across **657** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 290,157 | 41,963 | 45,738 | 351 |
-| CHeader | 12,241 | 6,352 | 3,509 | 158 |
+| C | 290,177 | 41,964 | 45,740 | 351 |
+| CHeader | 12,242 | 6,352 | 3,509 | 158 |
 | Scheme | 6,930 | 2,786 | 1,274 | 122 |
 | Tex | 5,211 | 2,735 | 692 | 1 |
 | M4 | 3,147 | 1,055 | 194 | 25 |
@@ -30,8 +30,8 @@ Overall score: **3.5 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,003 · **Forks**: 220 · **Open issues**: 0 · **Contributors**: 71
+- **Stars**: 1,004 · **Forks**: 221 · **Open issues**: 0 · **Contributors**: 71
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 2 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11329
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 2 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11331
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 1 | 0 | 0 | 15 |
-| last60d | 2026-09-17 | 0 | 0 | 1 | 0 | 0 | 36 |
-| 90d | 2026-08-18 | 0 | 0 | 2 | 0 | 0 | 62 |
-| last180d | 2026-05-20 | 0 | 0 | 2 | 0 | 0 | 112 |
-| 360d | 2025-11-21 | 0 | 0 | 2 | 0 | 0 | 206 |
-| last720d | 2024-11-26 | 0 | 0 | 2 | 0 | 0 | 639 |
+| 30d | 2026-10-20 | 0 | 0 | 1 | 0 | 0 | 17 |
+| last60d | 2026-09-20 | 0 | 0 | 1 | 0 | 0 | 38 |
+| 90d | 2026-08-21 | 0 | 0 | 2 | 0 | 0 | 64 |
+| last180d | 2026-05-23 | 0 | 0 | 2 | 0 | 0 | 114 |
+| 360d | 2025-11-24 | 0 | 0 | 2 | 0 | 0 | 208 |
+| last720d | 2024-11-29 | 0 | 0 | 2 | 0 | 0 | 641 |
 
 ## Distribution status
 
-Reported by **506** distros on [repology.org](https://repology.org/project/gnupg). **40** are ✅ on the latest upstream release, **337** are ⚠️ on an older version.
+Reported by **502** distros on [repology.org](https://repology.org/project/gnupg). **41** are ✅ on the latest upstream release, **332** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for gnupg lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T09:00:12Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T10:34:28Z._
