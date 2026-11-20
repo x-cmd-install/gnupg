@@ -14,11 +14,11 @@ x install gnupg
 
 ## Code insight
 
-Total: **327,895** lines of code across **657** files in the top 5 languages.
+Total: **327,903** lines of code across **657** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 290,177 | 41,964 | 45,740 | 351 |
+| C | 290,185 | 41,972 | 45,744 | 351 |
 | CHeader | 12,242 | 6,352 | 3,509 | 158 |
 | Scheme | 6,930 | 2,786 | 1,274 | 122 |
 | Tex | 5,211 | 2,735 | 692 | 1 |
@@ -42,33 +42,33 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,004 · **Forks**: 221 · **Open issues**: 0 · **Contributors**: 71
+- **Stars**: 1,005 · **Forks**: 220 · **Open issues**: 0 · **Contributors**: 71
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 2 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11331
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 2 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 11334
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 0 | 0 | 1 | 0 | 0 | 17 |
-| last60d | 2026-09-20 | 0 | 0 | 1 | 0 | 0 | 38 |
-| 90d | 2026-08-21 | 0 | 0 | 2 | 0 | 0 | 64 |
-| last180d | 2026-05-23 | 0 | 0 | 2 | 0 | 0 | 114 |
-| 360d | 2025-11-24 | 0 | 0 | 2 | 0 | 0 | 208 |
-| last720d | 2024-11-29 | 0 | 0 | 2 | 0 | 0 | 641 |
+| 30d | 2026-10-21 | 0 | 0 | 1 | 0 | 0 | 18 |
+| last60d | 2026-09-21 | 0 | 0 | 1 | 0 | 0 | 39 |
+| 90d | 2026-08-22 | 0 | 0 | 2 | 0 | 0 | 65 |
+| last180d | 2026-05-24 | 0 | 0 | 2 | 0 | 0 | 115 |
+| 360d | 2025-11-25 | 0 | 0 | 2 | 0 | 0 | 209 |
+| last720d | 2024-11-30 | 0 | 0 | 2 | 0 | 0 | 644 |
 
 ## Distribution status
 
-Reported by **502** distros on [repology.org](https://repology.org/project/gnupg). **41** are ✅ on the latest upstream release, **332** are ⚠️ on an older version.
+Reported by **504** distros on [repology.org](https://repology.org/project/gnupg). **41** are ✅ on the latest upstream release, **332** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `2.4.9` | ⚠️ outdated |
 | Debian 14 | `2.4.9` | ⚠️ outdated |
 | Debian 13 | `1.4.23` | 🪦 legacy |
-| Ubuntu 26.04 LTS | `2.4.8` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.4.23` | 🪦 legacy |
 | Ubuntu 24.04 LTS | `2.4.4` | ⚠️ outdated |
 | Arch | `2.4.9` | ⚠️ outdated |
 | Homebrew | `2.5.24` | ✅ latest |
@@ -87,4 +87,4 @@ Install metadata for gnupg lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T10:34:28Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T08:47:10Z._
