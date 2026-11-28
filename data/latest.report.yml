@@ -2,15 +2,15 @@ about:
   description: "The GNU Privacy Guard. NOTE: Maintainers are not tracking this mirror. Do not make pull requests here, nor comment any commits, submit them usual way to bug tracker (https://www.gnupg.org/documentation/bts.html) or to the mailing list (https://www.gnupg.org/documentation/mailing-lists.html)."
   license: GPL-3.0
   homepage: https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git
-  head: e659968
+  head: cbc457d
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-27T09:42:57Z
+  collectedAt: 2026-11-28T09:30:33Z
 timeline:
   created: 2015-09-07
-  lastCommit: 2026-11-26
+  lastCommit: 2026-11-27
   lastVersion: 
   lastRelease: 
   lastPrerelease: 
@@ -23,7 +23,7 @@ popularity:
   pullRequest: 26
   issue: 0
 language:
-  C: 11313075
+  C: 11316172
   TeX: 272721
   Scheme: 271819
   M4: 236007
@@ -39,75 +39,75 @@ language:
   PHP: 822
   CSS: 605
   sed: 370
-totalBytes: 12655332
+totalBytes: 12658429
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 23
+    commit: 26
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 37
+    commit: 40
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 0
-    openPR: 1
+    openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 71
+    commit: 74
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 0
     openPR: 1
     closedIssue: 0
     openIssue: 0
-    commit: 121
+    commit: 124
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
     mergedPR: 0
     openPR: 1
     closedIssue: 0
     openIssue: 0
-    commit: 215
+    commit: 218
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
     mergedPR: 0
     openPR: 1
     closedIssue: 0
     openIssue: 0
-    commit: 641
+    commit: 644
 total:
   release: 0
   mergedPR: 0
   openPR: 1
   closedIssue: 0
   openIssue: 0
-  commit: 11341
+  commit: 11344
 ---
 path: /home/runner/.x-repo/github.com/gpg/gnupg
-collectedAt: 2026-11-27T09:43:22Z
+collectedAt: 2026-11-28T09:31:08Z
 loc:
   C:
-    code: 290776
-    comments: 42037
-    blanks: 45807
+    code: 290877
+    comments: 42011
+    blanks: 45772
     files: 351
   CHeader:
-    code: 12252
-    comments: 6353
+    code: 12253
+    comments: 6354
     blanks: 3510
     files: 158
   Scheme:
@@ -206,9 +206,9 @@ loc:
     blanks: 2670
     files: 74
 total:
-  code: 328504
-  comments: 101925
-  blanks: 55982
+  code: 328606
+  comments: 101900
+  blanks: 55947
   files: 845
 ---
 date: "2026-11-23"
